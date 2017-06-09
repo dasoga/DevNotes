@@ -15,7 +15,7 @@ vim ~/.zshrc
 cd
 
 7 - 
-n -s /usr/local/share/zprezto .zprezto
+ln -s /usr/local/share/zprezto .zprezto
 
 8 - 
 ln -s /usr/local/share/zprezto/runcoms/zpreztorc .zpreztorc
