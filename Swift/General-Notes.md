@@ -20,6 +20,7 @@ if #available(iOS 10.0, *) {
 	// use the feature only available in iOS 10            
 }
 
+// Allow HTTP connections
 <key>NSAppTransportSecurity</key>
 <dict>
     <key>NSAllowsArbitraryLoads</key>
