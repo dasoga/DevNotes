@@ -34,3 +34,7 @@ ln -s /usr/local/share/zprezto/runcoms/zshenv .zshenv
 
 13 -
 ln -s /usr/local/share/zprezto/runcoms/zshrc .zshrc
+
+14 - git config --global alias.co checkout
+
+15 - git config --global alias.st status
