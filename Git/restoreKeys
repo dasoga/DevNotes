@@ -1,0 +1,19 @@
+Step 1
+chown <<username>> ~/.ssh/id_rsa*
+chmod 600 ~/.ssh/id_rsa
+chmod 644 ~/.ssh/id_rsa.pub
+
+Step 2
+exec ssh-agent bash
+
+Step 3
+ssh-add ~/.ssh/id_rsa
+
+Step 4
+Install brew
+
+Step 5
+Install git secret
+
+Step 6
+gpg --import my-private-key.asc
