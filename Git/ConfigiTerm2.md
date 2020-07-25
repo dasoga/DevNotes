@@ -1,7 +1,7 @@
 1 - Bajar iTerm2
 
 2- Clonar
-sudo git clone --recursive https://github.com/Kronuz/prezto.git /usr/local/share/zprezto
+  sudo git clone --recursive git@github.com:dasoga/prezto.git /usr/local/share/zprezto
 
 3- Ejecutar en terminal:
 sudo chsh -s /bin/zsh
