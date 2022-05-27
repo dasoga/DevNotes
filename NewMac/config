@@ -1,0 +1,14 @@
+Host github.com
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/id_rsa
+
+Host bitbucket.iilg.com
+    HostName bitbucket.iilg.com
+    User git
+    IdentityFile ~/.ssh/interval
+
+Host bitbucket.org
+    HostName bitbucket.org
+    User git
+    IdentityFile ~/.ssh/id_rsa_vendwatchtelematics_dsolorio
